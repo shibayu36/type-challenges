@@ -10,5 +10,11 @@
     "**/dist": true
   },
   "i18n-ally.keystyle": "flat",
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.packageManager": "pnpm"
 }
